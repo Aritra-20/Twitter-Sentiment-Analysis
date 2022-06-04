@@ -1,4 +1,17 @@
 # Twitter-Sentiment-Analysis
+## Abstract:
+Sentiment analysis is used to determine whether a given text contains negative, positive, or neutral emotions. It’s a form of text analytics that uses natural language processing (NLP) and machine learning. Sentiment analysis is also  known as “opinion mining” or “emotion artificial intelligence”. Tweets are often useful in generating a vast amount of sentiment data upon analysis. These data are useful in understanding the opinion of the people about a variety of topics.  
+
+While building our dataset we had to open a Twitter Developer account then  extract raw tweets based on our requirement. After that we compiled the  collected data into a csv file and made it ready to create a dataframe.  
+
+In the phase of data preprocessing we tried to emit the stop-words, comments, url  and other unnecessary items from our dataset. We have used some popular builtin methods to complete this step. Then we calculated polarity scores to signify that our dataset is balanced and not biased towards any polarity.   
+
+In the case of Model building, first we had to split our dataset into the training and testing part. Then we fit our model with MultinomialNB and got some results and as we know MultinomialNB works in that case of classification where we have sufficient differences between the classes. So we also used SGDClassifier to get a better result.  
+
+To create results, we have used popular techniques and got our results in metrics.  
+
+Finally, we can see that we can improve the overall accuracy of our model or improve the accuracy for each class by refining our dataset.  
+
 ## Steps of collecting the data and building the dataset:
 Step 1: Get access to the Twitter API and create a developers account  
 
