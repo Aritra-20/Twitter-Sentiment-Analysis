@@ -114,11 +114,12 @@ Step 26: Print the classification report
 ![This is an image](Images/17.jpeg)   
 
 ## Conclusion:
-● For Support for Russia/Ukraine, SGDClassifier gives better accuracy
-● For Support for War (Yes/No), MultinomialNB gives better accuracy
-● No. of tweets which want WAR: 499
-● No. of tweets which do not want WAR: 506
-● No. of tweets which support Russia: 490
-● No. of tweets which support Ukraine: 468
+● For Support for Russia/Ukraine, SGDClassifier gives better accuracy  
+● For Support for War (Yes/No), MultinomialNB gives better accuracy   
+● No. of tweets which want WAR: 499  
+● No. of tweets which do not want WAR: 506  
+● No. of tweets which support Russia: 490  
+● No. of tweets which support Ukraine: 468  
+
 
 
