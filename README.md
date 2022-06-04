@@ -4,7 +4,7 @@ Sentiment analysis is used to determine whether a given text contains negative, 
 
 While building our dataset we had to open a Twitter Developer account then  extract raw tweets based on our requirement. After that we compiled the  collected data into a csv file and made it ready to create a dataframe.  
 
-In the phase of data preprocessing we tried to emit the stop-words, comments, url  and other unnecessary items from our dataset. We have used some popular builtin methods to complete this step. Then we calculated polarity scores to signify that our dataset is balanced and not biased towards any polarity.   
+In the phase of data preprocessing we tried to emit the stop-words, comments, url  and other unnecessary items from our dataset. We have used some popular built-in methods to complete this step. Then we calculated polarity scores to signify that our dataset is balanced and not biased towards any polarity.   
 
 In the case of Model building, first we had to split our dataset into the training and testing part. Then we fit our model with MultinomialNB and got some results and as we know MultinomialNB works in that case of classification where we have sufficient differences between the classes. So we also used SGDClassifier to get a better result.  
 
@@ -19,7 +19,7 @@ Step 2: Apply for a developer account with Twitter and get your Twitter API keys
 
 Step 3: Fetch data from Twitter API in Python  
 
-Step 4: Install tweepy, which provides a way to invoke certain HTTP endpoints without dealing with lowlevel details.  
+Step 4: Install tweepy, which provides a way to invoke certain HTTP endpoints without dealing with low-level details.  
 ![This is an image](Images/1.jpeg)  
 
 Step 5: Authenticate with your credentials, which we can get once we have registered with a developers account. This step is essential for getting our data.  
