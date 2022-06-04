@@ -23,7 +23,7 @@ Step 8: Create a dataset using pandas dataframe
 
 Step 9: Convert dataset to csv file  
 
-Dataset (first 12 lines) after manual labelling:  
+## Dataset (first 12 lines) after manual labelling:  
 ![This is an image](Images/6.jpeg)   
 
 ## Algorithm:  
@@ -85,32 +85,32 @@ Step 26: Print the classification report
 
 ## Output:  
 
-Polarity of Tweets -  
+### Polarity of Tweets -  
 ![This is an image](Images/7.jpeg)   
 
-Number of tweets supporting Russia, Ukraine, War and No War -  
+### Number of tweets supporting Russia, Ukraine, War and No War -  
 ![This is an image](Images/8.jpeg)   
 ![This is an image](Images/9.jpeg)  
 ![This is an image](Images/10.jpeg)  
 ![This is an image](Images/11.jpeg)   
-# Prediction Results - Accuracy measured:  
+## Prediction Results - Accuracy measured:  
 
-Accuracy for support prediction using Multinomial NB -  
+### Accuracy for support prediction using Multinomial NB -  
 ![This is an image](Images/12.jpeg)   
 
-Accuracy for support prediction using SGD Classifier -  
+### Accuracy for support prediction using SGD Classifier -  
 ![This is an image](Images/13.jpeg)   
 
-Accuracy for War prediction using Multinomial NB -  
+### Accuracy for War prediction using Multinomial NB -  
 ![This is an image](Images/14.jpeg)   
 
-Accuracy for War prediction using SGD Classifier -  
+### Accuracy for War prediction using SGD Classifier -  
 ![This is an image](Images/15.jpeg)  
 
-# Confusion Matrix -  
+### Confusion Matrix -  
 ![This is an image](Images/16.jpeg)   
 
-# Classification Report -  
+### Classification Report -  
 ![This is an image](Images/17.jpeg)   
 
 ## Conclusion:
