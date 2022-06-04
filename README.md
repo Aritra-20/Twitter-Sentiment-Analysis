@@ -12,7 +12,7 @@ Step 4: Install tweepy, which provides a way to invoke certain HTTP endpoints wi
 Step 5: Authenticate with your credentials, which we can get once we have registered with a developers account. This step is essential for getting our data.  
 ![This is an image](Images/2.jpeg)
 
-Step 6: Set up the search query containing the content related to which we want to collect the data
+Step 6: Set up the search query containing the content related to which we want to collect the data.
 ![This is an image](Images/3.jpeg)  
 
 Step 7: Collect the Tweets and append to a list  
@@ -24,7 +24,7 @@ Step 8: Create a dataset using pandas dataframe
 Step 9: Convert dataset to csv file  
 
 Dataset (first 12 lines) after manual labelling:  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/6.jpeg)   
 
 ## Algorithm:  
 
@@ -85,31 +85,33 @@ Step 26: Print the classification report
 
 ## Output:  
 
-# Polarity of Tweets -  
+Polarity of Tweets -  
+![This is an image](Images/7.jpeg)   
 
 Number of tweets supporting Russia, Ukraine, War and No War -  
-![This is an image](Images/5.jpeg)   
-
-Prediction Results - Accuracy measured:  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/8.jpeg)   
+![This is an image](Images/9.jpeg)  
+![This is an image](Images/10.jpeg)  
+![This is an image](Images/11.jpeg)   
+# Prediction Results - Accuracy measured:  
 
 Accuracy for support prediction using Multinomial NB -  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/12.jpeg)   
 
 Accuracy for support prediction using SGD Classifier -  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/13.jpeg)   
 
 Accuracy for War prediction using Multinomial NB -  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/14.jpeg)   
 
 Accuracy for War prediction using SGD Classifier -  
-![This is an image](Images/5.jpeg)  
+![This is an image](Images/15.jpeg)  
 
 # Confusion Matrix -  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/16.jpeg)   
 
 # Classification Report -  
-![This is an image](Images/5.jpeg)   
+![This is an image](Images/17.jpeg)   
 
 ## Conclusion:
 ● For Support for Russia/Ukraine, SGDClassifier gives better accuracy
