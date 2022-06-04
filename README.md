@@ -9,7 +9,7 @@ Step 3: Fetch data from Twitter API in Python
 Step 4: Install tweepy, which provides a way to invoke certain HTTP endpoints without dealing with lowlevel details.  
 
 Step 5: Authenticate with your credentials, which we can get once we have registered with a developers account. This step is essential for getting our data.  
-<code><img height="20"src="Images/1.jpeg"></code>
+![This is an image](Images/1.jpeg)
 
 Step 6: Set up the search query containing the content related to which we want to collect the data
 
